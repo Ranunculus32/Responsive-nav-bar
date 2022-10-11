@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "K2D";
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #5585b5;
+}
+nav .logo {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+nav .navlinks {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+}
+nav .navlinks li {
+  list-style-type: none;
+}
+nav .navlinks a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+nav .navlinks a:link:hover {
+  color: aqua;
+}
+
+.burger {
+  display: none;
+}
+.burger .burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .navlinks {
+    width: 60%;
+  }
+}/*# sourceMappingURL=main.css.map */
